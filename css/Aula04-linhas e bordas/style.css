@@ -1,0 +1,17 @@
+#primeiradiv{
+    border:10px dashed green;
+}
+#segundadiv{
+    border: 40px double blue;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+body{
+    background-image: url("IMG/download.jfif");
+    background-position: 50000000px;
+    background-attachment: fixed;
+}
