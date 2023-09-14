@@ -1,0 +1,27 @@
+
+
+div{
+    
+    font-size: 1px solid #000000;
+    margin-top: 20px;
+    margin-right: 50px;
+    
+    margin-bottom: 50px;
+}
+
+/*colocar uma borda no paragrafo 1px solid cor de sua escolha */
+
+#abc{
+    border: 1em solid #037864;
+    margin-top: 300px;
+    margin-bottom: 300px;
+    padding-top: 15px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+}
+
+#def{
+    border: 1rem solid purple;
+    margin-top: 2px;
+}
