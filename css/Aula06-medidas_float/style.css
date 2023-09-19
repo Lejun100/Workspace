@@ -1,0 +1,16 @@
+body{
+    background-color: blueviolet;
+    text-align: center;
+    
+}
+p{
+font-size: 2em;
+text-align: center;
+
+}
+
+.id{
+    width:50px ;
+    height: 10px;
+    position: relative;
+}
