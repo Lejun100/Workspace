@@ -1,0 +1,46 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows:auto;
+    grid-template-areas:"div4 div4 div 4 div4 div2 div2" "div1 div3 div5 div6 div8" ;
+
+}
+.item-1{
+    grid-area: div1;
+
+}
+
+.item-2{
+    grid-area: div2;
+
+}
+
+.item-3{
+    grid-area: div3;
+
+}
+
+.item-4{
+    grid-area: div4;
+
+}
+
+.item-5{
+    grid-area: div5;
+
+}
+
+.item-6{
+    grid-area: div6;
+
+}
+
+.item-7{
+    grid-area: div7;
+
+}
+
+.item-8{
+    grid-area: div8;
+    
+}
