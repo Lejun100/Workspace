@@ -54,5 +54,21 @@ console.log(novo_salario)
 console.log("321" + 123)
 
 
+var imparPar = 4%2
+console.log("Se o resultado for 1 então o número é impar, se o resultado for 0 então ele é par, esse é o resultado:" + imparPar)
+
+var comparacao = 20>3
+
+console.log(comparacao)
+
+var doisSinaisDeIgual = "abc" != "abc"
+
+console.log(doisSinaisDeIgual)
 
 
+var addnumero = 15;
+
+addnumero%=2
+
+
+console.log(addnumero)
