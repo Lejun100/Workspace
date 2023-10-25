@@ -6,8 +6,6 @@ let numeroDeAprovado = 5
 
 console.log(numeroDeAprovado)
 
-console.clear()
-
 var nomeAluno = "Leandro"
 nomeAluno = "abc"
 console.log(nomeAluno)
@@ -15,7 +13,6 @@ console.log(nomeAluno)
 let nameAluno = "nossa"
 
 const nomeSiteWeb = "polm"
-
 
 var texto1 = "A média do aluno com as 4 notas é:"
 

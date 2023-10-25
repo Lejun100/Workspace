@@ -43,6 +43,12 @@ console.log(str.substring(2,5));
 console.log(str.substring(0));
 
 
+let mensagem = 'Venha para a Microsoft';
+console.log(mensagem)
+
+let novaMensagem = mensagem.replace('Microsoft', 'IOS');
+console.log(novaMensagem)
+
 
 
 
