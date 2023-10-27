@@ -70,7 +70,7 @@ console.clear()
 
 
 
-  let fase2 = 70
+  let fase2 = 80
   let fase3 = false
   let inscrição = true
 
@@ -84,3 +84,68 @@ console.clear()
         console.log("Você não passou na fase 2")
     }
   }
+
+
+  
+  
+  
+  let pipoca1 = 10
+  let pipoca2 = 56
+
+  if(pipoca1>pipoca2){
+    console.log(pipoca1 + " é maior") //escopo de bloco
+  }else{
+    console.log(pipoca2 + " é maior")
+  }
+
+  pipoca1 > pipoca2 ? console.log(pipoca1 + " é maior") :
+  console.log(pipoca2 + "é maior;")
+
+  let mounth = 3
+ 
+  switch(mounth){
+    case mounth == 3:
+        console.log("Março")
+        break;
+        case mounth == 4:
+            console.log("Abril")
+            break;
+            case  10:
+                console.log("Outubro")
+                break;
+            case  12:
+            console.log("Dezembro")  
+            break;  
+            default:
+                console.log("Não encontrei o mês")
+  }
+
+
+ 
+  var escopo = true    // escopo global
+ 
+  if(escopo){
+    console.log(escopo)
+}
+
+switch(escopo){
+    case true:
+        console.log("Variável escopo é global")
+        break;
+        default:
+            console.log("Não existe variáveis")
+}
+
+
+
+var passouOuNao = true
+
+if(passouOuNao == true){
+    var fase = 0
+    fase = 1
+}
+
+
+if(passouOuNao == true){
+    fase = 2
+}

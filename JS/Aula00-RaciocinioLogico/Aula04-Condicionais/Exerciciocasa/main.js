@@ -7,3 +7,4 @@ if(numero1>numero2){
 }else{
     console.log("Número1 é menor")
 }
+
