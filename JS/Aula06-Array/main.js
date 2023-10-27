@@ -41,3 +41,19 @@ console.log(retiraUlNumero)
 console.log(numArray)
 
 
+let novaInformacao = numArray.push("Kiwi")
+console.log(numArray)
+console.log(novaInformacao)
+
+let retiraInicio = numArray.shift()
+console.log(numArray)
+console.log(retiraInicio)
+
+
+let insereInicio = numArray.unshift("abc")
+console.log(numArray)
+console.log(insereInicio)
+
+
+delete numArray[2]
+console.log(numArray)

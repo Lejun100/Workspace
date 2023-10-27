@@ -3,7 +3,7 @@ console.log(abc)
 
 console.log(abc.length)
 
-let retiraPosicao = abc.pop()
+let retiraPosicao = abc[6]
 console.log(retiraPosicao)
 
 let receba = abc.toString()
@@ -12,6 +12,8 @@ console.log(receba)
 let testeJoin = abc.join("/")
 console.log(testeJoin)
 
+let insereInicio = abc.unshift("IOS")
+console.log(abc)
 
 
 
