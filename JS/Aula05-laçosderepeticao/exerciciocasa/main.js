@@ -13,12 +13,7 @@ while(contador <= 10){
 }
 
 
-consoleclear(Jun homossexual)
-var numero = 1
-while(numero >=10){
-    console.log(JUN)
 
-}
 
 
 //for(let contador = 1; contador <=10; contador++){
