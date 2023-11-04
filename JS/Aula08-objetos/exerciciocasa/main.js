@@ -7,11 +7,11 @@ const alertSucesso = () => {
 }
 
 const notebook = {
-    marca: 'Samsung XR-T',
-    cor: 'Rosa',
-    peso: '2kg',
-    memoriaRam: '32gb',
-    SistemaOperacional: 'Linux'
+    modelo: 'Macbook air m1',
+    ano: '2020',
+    cor: 'branco',
+    marca: 'Apple',
+    valor: '7.500'
 }
 console.log(notebook)
 
@@ -19,5 +19,5 @@ function myFunc(valor1, valor2) {
     return valor1 * valor2
 }
 
-let conversao = myFunc(3, 365)
-console.log(conversao)
+let converter = myFunc(365, 5)
+console.log(converter) 
