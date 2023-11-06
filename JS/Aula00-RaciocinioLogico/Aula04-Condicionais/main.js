@@ -49,7 +49,7 @@ if(morangoMaduro == true){
     console.log("Seu morango está mofado")
 }
 
-console.clear()
+
   var raizQuadrada = Math.sqrt(1995)
   console.log(raizQuadrada)
 
