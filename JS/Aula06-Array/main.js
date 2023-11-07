@@ -18,10 +18,6 @@ numeros[3] = 'hora de hora'
 console.log("Depois: " + numeros)
 
 
-
-
-
-
 var numArray = [2,3,4,45,86]
 console.log(numArray)
 
