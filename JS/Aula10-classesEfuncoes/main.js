@@ -39,13 +39,25 @@ class Carro {
 
     class celular{
         constructor(marca, modelo, cor, memoria, memoriaRam){
-            this.marca ='';
-            this.modelo ='';
-            this.cor ='';
-            this.memoria ='';
-            this.memoriaRam =''
+            this.marca = pipoca;
+            this.modelo = modelo
+            this.cor = cor
+            this.memoria = vrdd
+            this.memoriaRam = abc
         }
     }
 
 
-    console.log(celular)
+    ligar(){
+        console.log("Ligando o celular......")
+    }
+
+    desligar(){
+        console.log("Desligando......")
+    }
+
+    pesquisa(){
+        console.log("Pesquisando..........")
+    }
+   
+   
