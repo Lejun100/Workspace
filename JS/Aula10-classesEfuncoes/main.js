@@ -38,26 +38,45 @@ class Carro {
 
 
     class celular{
-        constructor(marca, modelo, cor, memoria, memoriaRam){
+        constructor(pipoca, modelo, cor, memoria, memoriaRam){
             this.marca = pipoca;
-            this.modelo = modelo
-            this.cor = cor
-            this.memoria = vrdd
-            this.memoriaRam = abc
+            this.modelo = modelo;
+            this.cor = cor;
+            this.memoria = memoria
+            this.memoriaRam = memoriaRam
         }
     }
 
 
-    ligar(){
-        console.log("Ligando o celular......")
-    }
+    // ligar(){
+    //     console.log("Ligando o celular......")
+    // }
 
-    desligar(){
-        console.log("Desligando......")
-    }
+    // desligar(){
+    //     console.log("Desligando......")
+    // }
 
-    pesquisa(){
-        console.log("Pesquisando..........")
-    }
+    // pesquisa(){
+    //     console.log("Pesquisando..........")
+    // }
    
-   
+   var motorola = new celular();
+   console.log(motorola.cor = 'amarelo')
+   console.log(motorola.marca = 'nokia')
+   console.log(motorola.memoria = '64')
+   console.log(motorola.memoriaRam = '12')
+   console.log(motorola.modelo = 'abc')
+
+
+
+   var motorola = new celular('amarelo','nokia','64','12','abc');
+   console.log(motorola)
+
+
+
+
+
+   desligar(){
+    return``
+   }
+
