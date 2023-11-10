@@ -4,6 +4,13 @@ pipoca[2].style.color = 'red'
 console.log(pipoca)
 
 
+let c = 0;
+while(c < pipoca.length){
+    pipoca[c].style.color = 'purple'
+    c++
+}
+
+
 
 
 
