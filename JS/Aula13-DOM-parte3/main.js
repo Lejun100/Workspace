@@ -27,7 +27,7 @@ const Nome = () => {
     let recebeNome = document.querySelector('#recebeNome')
     let mostraNome =  document.querySelector('#mostraNome')
     console.log(recebeNome)
-    mostraNome.innerHTML = `Olá ${recebeNome.value} Bem vindo a minha house papai`
+    mostraNome.innerHTML += `Olá ${recebeNome.value} Bem vindo a minha house papai \n`
 }
 
 
@@ -36,18 +36,18 @@ let evento = document.querySelector('#messi')
 evento.addEventListener('click, Nome')
 //o nome do event, callback(função), opcional(booleano true or false)
 
-const Nome() => {
-    let recebeNome = document.querySelector('#recebeNome')
-    let mostraNome = document.querySelector('#mostraNome')
+// const Nome() => {
+//     let recebeNome = document.querySelector('#recebeNome')
+//     let mostraNome = document.querySelector('#mostraNome')
 
-mostraNome.innerHTML = `Olá ${recebeNome.value} o Messi é o melhor do mundo`
-
-
-
-}
+// mostraNome.innerHTML = `Olá ${recebeNome.value} o Messi é o melhor do mundo`
 
 
-evento.addEventListener('click, Nome ')
+
+// }
+
+
+// evento.addEventListener('click, Nome ')
 
 
 
