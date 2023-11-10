@@ -1,3 +1,14 @@
-var pipoca = document.querySelector('p');
-pipoca.style.color = 'blue'
+var pipoca = document.querySelectorAll('p');
+pipoca[2].style.color = 'red'
+// pipoca.style.color = 'blue'
 console.log(pipoca)
+
+
+
+
+
+
+
+
+
+
