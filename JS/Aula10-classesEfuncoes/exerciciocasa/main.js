@@ -7,33 +7,14 @@
 
 
 
-
-
-
-
-class contaBancaria{
-    constructor(){
-        nome= 'Luana Sakai';
-        idade= '20';
-        salário= '1500';
-        sexo= 'Feminino';
-        agência= 'Banco Pipoca';
-        conta= 'corrente';
-        tipoConta= '';
-    }
-
-}
+const minhaConta = new ContaBancaria("Luana", 20, 2500, "Masculino", "9089", "76650", "Conta corrente");
+minhaConta.contaCorrente();
 
 
 
 
 
-console.log(contaBancaria)
 
-
-
-
-console.clear()
 
 
 class ContaBancaria {
@@ -77,6 +58,4 @@ class ContaBancaria {
   }
 }
 
-// Exemplo de uso:
-const minhaConta = new ContaBancaria("João", 30, 5000, "Masculino", "1234", "56789", "Conta Poupança");
-minhaConta.contaPoupanca();
+
