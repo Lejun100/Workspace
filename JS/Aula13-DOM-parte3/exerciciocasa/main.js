@@ -6,7 +6,7 @@ let inserindo = false;
 function adicionarImagem() {
     if (!inserindo){    
     const imagem = document.createElement("img");
-    imagem.src = "img/legiao_9yCgFqQUbXJ4.png.webp";
+    imagem.src = "IMG/240604.webp";
     document.body.appendChild(imagem);
     inserindo = true;
     }
