@@ -1,59 +1,51 @@
 
-let inserindo = false;
+
+const label = document.createElement("label");
+label.setAttribute("for", "salarioAtual");
+label.textContent = "Salário Atual: ";
 
 
+const inputSalario = document.createElement("input");
+inputSalario.type = "text";
+inputSalario.id = "salarioAtual";
+inputSalario.placeholder = "Insira o salário atual";
 
-function adicionarImagem() {
-    if (!inserindo){    
-    const imagem = document.createElement("img");
-    imagem.src = "IMG/240604.webp";
-    document.body.appendChild(imagem);
-    inserindo = true;
-    }
-   
-    document.body.appendChild(imagem);
-  
-   
 
-    document.body.style.backgroundColor = "#262525";
-  
-    const botao = document.getElementById("B_01");
-    botao.style.border = "2px solid #D9BC66";
-    botao.style.padding = "0.5rem";
-    botao.style.backgroundColor = "#BFBFBF";
-    botao.style.margin = "0.7rem";
-  }
-  
-  function solicitarNome() {
-    const nome = prompt("Digite seu nome:");
-    if (nome !== null) {
-      const mensagem = document.createElement("p");
-      mensagem.textContent = `Olá ${nome}, bem-vindo à nossa academia`;
-      document.body.appendChild(mensagem);
-    }
-  }
-  
-  function exibirTabuada() {
-    const numero = prompt("Digite um número para ver a tabuada:");
-    if (numero !== null) {
-      const resultado = document.createElement("p");
-      resultado.textContent = `Tabuada do ${numero}:\n`;
-  
-      for (let i = 1; i <= 10; i++) {
-        const linha = `${numero} x ${i} = ${numero * i}\n`;
-        resultado.textContent += linha;
-      }
+const button = document.createElement("button");
+button.textContent = "Calcular Novo Salário";
+button.onclick = calcularNovoSalario;
 
-      document.body.appendChild(resultado);
-    }
+
+const resultadoElemento = document.createElement("p");
+resultadoElemento.id = "resultado";
+
+
+document.body.appendChild(label);
+document.body.appendChild(inputSalario);
+document.body.appendChild(button);
+document.body.appendChild(resultadoElemento);
+
+
+function calcularNovoSalario() {
+ 
+  const salarioAtual = parseFloat(inputSalario.value);
+
+ 
+  if (isNaN(salarioAtual) || salarioAtual <= 0) {
+    alert("Por favor, insira um valor válido para o salário atual.");
+    return;
   }
 
-function remove(){
-    document.body.innerHTML = '';
+
+  const aumentoPercentual = 17;
+  const reajusteAnual = 215;
+
+  const aumento = (salarioAtual * aumentoPercentual) / 100;
+  const novoSalario = salarioAtual + aumento + reajusteAnual;
+
+ 
+  resultadoElemento.textContent = `O novo salário é R$ ${novoSalario.toFixed(
+    2
+  )}`;
 }
 
-
-
-
-
-  
