@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastre-se</title>
+</head>
+
+<body>
+    <section class="form-container">
+        <main style="border-radius: 15px solid #000;">
+            <form action="#">
+                <h3>Complete os campos abaixo para finalizar a reserva!</h3><br><br>
+
+                <div class="input-group">
+                    <label for="cNome"> <strong>Nome</strong></label><br><br>
+                    <input autocomplete="off" type="text" size="20" name="tNome" id="cNome" required="required"
+                        class="input" />
+                    <br><br>
+                    <label for="cSbrnome"> <strong>Sobrenome</strong></label><br><br>
+                    <input autocomplete="off" type="text" size="20" name="tSbrnome" id="cSbrnome" required="required"
+                        class="input" />
+
+                    <br><br>
+
+                    <label for="documento">Documento</label>
+                    <select name="documento" id="documento">
+                        <option value="CPF">CPF</option>
+                        <option value="RG">RG</option>
+                        <option value="Passaporte">Passaporte</option> <input autocomplete="off" type="number" size="20"
+                            required="required"></input>
+
+
+                        <label for="country">País na qual reside</label>
+                        <select name="country" id="country">
+
+                            <option value="">Alemanha</option>
+                            <option value="">Argentina</option>
+                            <option value="Brasil">Brasil</option>
+                            <option value="">Chile</option>
+                            <option value="">Colômbia</option>
+                            <option value="">Espanha</option>
+                            <option value="">Estados Unidos da América</option>
+                            <option value="">França</option>
+                            <option value="">Hong Kong</option>
+                            <option value="">Japão</option>
+                            <option value="">Líbano</option>
+                            <option value="">México</option>
+                            <option value="">Paraguay</option>
+                            <option value="">Peru</option>
+                            <option value="">Portugal</option>
+                        </select>
+
+                        <div>
+                            <h3>Sexo</h3>
+                            <input type="radio" id="genero" name="genero" value="genero" />
+                            <label for="genero">Feminino</label>
+                            <input type="radio" id="genero2" name="genero2" value="genero2" />
+                            <label for="genero2">Masculino</label>
+                        </div>
+
+
+                        <div>
+                            <h2>Data de nascimento</h2>
+                            <label for="dia">Dia</label>
+                            <select name="dia" id="dia">
+                                <option value="">1</option>
+                                <option value="">2</option>
+                                <option value="">3</option>
+                                <option value="">4</option>
+                                <option value="">5</option>
+                                <option value="">6</option>
+                                <option value="">7</option>
+                                <option value="">8</option>
+                                <option value="">9</option>
+                                <option value="">10</option>
+                                <option value="">11</option>
+                                <option value="">12</option>
+                                <option value="">13</option>
+                                <option value="">14</option>
+                                <option value="">15</option>
+                                <option value="">16</option>
+                                <option value="">17</option>
+                                <option value="">18</option>
+                                <option value="">19</option>
+                                <option value="">20</option>
+                                <option value="">21</option>
+                                <option value="">22</option>
+                                <option value="">23</option>
+                                <option value="">24</option>
+                                <option value="">25</option>
+                                <option value="">26</option>
+                                <option value="">27</option>
+                                <option value="">28</option>
+                                <option value="">29</option>
+                                <option value="">30</option>
+                                <option value="">31</option>
+                            </select>
+                            <label for="mes">Dia</label>
+                            <select name="mes" id="mes">
+                                <option value="">Janeiro</option>
+                                <option value="">Fevereiro</option>
+                                <option value="">Março</option>
+                                <option value="">Abril</option>
+                                <option value="">Maio</option>
+                                <option value="">Junho</option>
+                                <option value="">Julho</option>
+                                <option value="">Agosto</option>
+                                <option value="Setembro">Setembro</option>
+                                <option value="Outubro">Outubro</option>
+                                <option value="">Novembro</option>
+                                <option value="">Dezembro</option>
+                            </select>
+
+                            <label for="ano">Dia</label>
+                            <select name="ano" id="ano">
+                                <option value="">2023</option>
+                                <option value="">2022</option>
+                                <option value="">2021</option>
+                                <option value="">2020</option>
+                                <option value="">2019</option>
+                                <option value="">2018</option>
+                                <option value="">2017</option>
+                                <option value="">2016</option>
+                                <option value="">2015</option>
+                                <option value="">2014</option>
+                                <option value="">2013</option>
+                                <option value="">2012</option>
+                                <option value="">2011</option>
+                                <option value="">2010</option>
+                                <option value="">2009</option>
+                                <option value="">2008</option>
+                                <option value="">2007</option>
+                                <option value="">2006</option>
+                                <option value="">2005</option>
+                                <option value="">2004</option>
+                                <option value="">2003</option>
+                                <option value="">2002</option>
+                                <option value="">2001</option>
+                                <option value="">2000</option>
+                                <option value="">1999</option>
+                                <option value="">1998</option>
+                                <option value="">1997</option>
+                                <option value="">1996</option>
+                                <option value="">1995</option>
+                                <option value="">1994</option>
+
+                        </div>
+
+
+                        <div>
+                            <h4>Informe seu E-mail</h4>
+                            <p>Para podermos enviar mais detalhes e comprovante do pagamento da reserva favor inserir
+                                E-mail:</p>
+                            <label for="email">E-mail</label><br>
+                            <input autocomplete="off" type="text" size="20" name="email" id="email"
+                                required="required" />
+                            <br><br>
+                            <label for="recEmail">Reconfirme seu E-mail:</label><br>
+                            <input autocomplete="off" type="text" size="20" name="recEmail" id="recEmail"
+                                required="required" />
+                        </div>
+
+                        <div>
+                            <h4>Informe seu número de celular para entrarmos em contato</h4>
+                            <br>
+                            <p>Telefone</p>
+                            <br><br>
+                            <h3>Código do país residente:</h3>
+                            <input autocomplete="off" type="text" size="20" name="cod" id="cod"
+                                required="required" />
+                                <br>
+
+                                <p>Área</p> <p>Número</p>
+                                <input autocomplete="off" type="text" size="20" name="area" id="area"
+                                required="required" />
+                                <input autocomplete="off" type="text" size="20" name="numero" id="numero"
+                                required="required" />
+                        </div>
+
+
+                        <div>
+                            <h3>Forma de pagamento</h3>
+                            <input type="radio" id="pagamento" name="pagamento" value="pagamento"/>
+                            <label for="pagamento">Boleto</label>
+                            <input type="radio" id="pagamento" name="pagamento" value="pagamento"/>
+                            <label for="pagamento">Pix</label>                     
+                            <input type="radio" id="pagamento" name="pagamento" value="pagamento"/>
+                            <label for="pagamento">Cartão débito</label>
+                            <input type="radio" id="pagamento" name="pagamento" value="pagamento"/>
+                            <label for="pagamento">Cartão crédito</label>
+
+                            
+
+                        </div>
+
+                        <div>
+                            <input type="checkbox" id="aceitar" name="aceitar" value="aceitar"/>
+                            <label for="aceitar">Li e aceito as condições de compra , política de privacidade e política de alterações e cancelamentos .</label>
+                        </div>
+
+
+
+
+
+
+                      <div>
+                        <input type="submit" value="Finalizar pagamento"/>
+                      </div>
+
+</body>
+
+</html>
